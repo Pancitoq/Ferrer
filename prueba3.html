@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Formulario - PlazaVea</title>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="img/logo-tienda.png" alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Articulos</a></li>
+                <li><a href="prueba2.html">Reseñas</a></li>
+                <li><a href="prueba3.html">Paga Aqui!!</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button class="boton">Buscar</button></a>
+    </header>
+
+    <form method="get" action="#">
+    <section class="form">
+    <h4>Caballeros:</h4>
+    <label for="email">Correo de usuario:</label>
+    <input class="controls" type="text" name="Usuario" id="nombres" placeholder="Ingresa aquí tu email de usuario" required>
+    <label for="usuario">Usuario:</label>
+    <input class="controls" type="password" name="nombres" id="nombres" placeholder="Ingresa aquí tu email de usuario" required>
+    <label for="">Metodo de pago:</label><br>
+        <label for="">Paypal</label>
+        <input type="radio" name="tipo_t" id=""><br>
+        <label for="">Visa</label>
+        <input type="radio" name="tipo_t" id=""><br>
+        <label for="">Mastercad</label>
+        <input type="radio" name="tipo_t" id=""><br>
+        <label for="">Transferencia Bancaria</label>
+        <input type="radio" name="tipo_t" id=""><br>
+        <br>
+        <select  id="categoría de productos">
+            <option value="Seleccione una categoría de producto">Categoría de productos</option>
+            <option value="1">Zapatos</option>
+            <option value="2">Camisas</option>
+            <option value="3">Zapatillas</option>
+            <option value="4">Polos</option>
+            <option value="5">Shorts</option>
+            <option value="6">Sudaderas</option>
+            <option value="7">Pantalones</option>
+            <option value="8">Jeans</option>
+            <option value="9">otro...</option>
+        </select>
+
+    <p>Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></p>
+    <br>
+    <label for="Fecha">Fecha de compra:</label>
+    <input type="date" name="" id=""><br>
+    <input class="button" type="submit" value="Enviar">
+    <input class="button" type="submit" value="Cancelar">
+
+    </section>
+    </form>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

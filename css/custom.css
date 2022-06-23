@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/slashes.png);
+}
+
+li, a, button {
+    font-weight: 500;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: beige;
+}
+
+.logo {
+    cursor: pointer;
+    width: 80px;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav__links li a:hover {
+    color: white;
+}
+
+.boton {
+    padding: 9px 25px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+  
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+}
+  
+
+.fakeimg {
+    background-color: #c5bcd5;
+    width: 100%;
+    padding: 10px;
+}
+
+.card {
+    background-color: #D4CBE5;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+
+.row:after {
+    display: table;
+    clear: both;
+}
+  
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: beige;
+    margin-top: 20px;
+  }
+
+  
+.form{
+    width: 400px;
+    background: #D44D5C;
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #1c1d20;
+    
+}
+
+.form h4{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.controls{
+    width: 100%;
+    background: #e4e5e6;
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e742;
+    font-size: 18px;
+    color:black;
+}
+
+
+.form p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form a {
+    color:white;
+    text-decoration: none;
+}
+
+.form a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+.form .button {
+    width: 100%;
+    background: beige;
+    border: none;
+    padding: 12px;
+    color: black;
+    margin: 10px 0;
+    font-size: 16px;
+}
